@@ -1,0 +1,7 @@
+cc_test {
+    name: "modeset-single-buffer",
+    defaults: ["libdrm_defaults"],
+    srcs: ["modeset-single-buffer.cpp"],
+
+    shared_libs: ["libdrm", "liblog"],
+}
